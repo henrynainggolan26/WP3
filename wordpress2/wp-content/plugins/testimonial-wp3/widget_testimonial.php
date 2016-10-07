@@ -4,12 +4,11 @@ class Widget_Testimonial extends WP_Widget
 	/**
 	 * Register widget with WordPress.
 	 */
-	public function __construct()
-	{
+	public function __construct(){
 		$widget_ops = array( 
 			'classname' => 'Widget_Testimonial',
 			'description' => 'Testimonial widget',
-			);
+		);
 		parent::__construct( 'Widget_Testimonial', 'Widget Testimonial', $widget_ops );
 	}
 	/**
@@ -32,10 +31,9 @@ class Widget_Testimonial extends WP_Widget
 			);
 		if(count($result)>0){
 			echo "<table border='1' cellpadding='2' align='center'>"; 
-			echo "<tr><th> ID </th> <th> Name </th>  <th> Email </th> <th> Phone Number </th><th> Testimonial </th></tr>";
+			echo "<tr><th> Name </th>  <th> Email </th> <th> Phone Number </th><th> Testimonial </th></tr>";
 			foreach ( $result as $testimoni ) 
 			{
-				echo '<tr><td>'.$testimoni->id.'</td>';
 				echo '<td>'.$testimoni->name.'</td>';
 				echo '<td>'.$testimoni->email.'</td>';
 				echo '<td>'.$testimoni->phone_number.'</td>';
