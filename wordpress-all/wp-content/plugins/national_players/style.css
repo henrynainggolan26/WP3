@@ -1,0 +1,10 @@
+.picture {
+    border: 10px solid #ffffff;
+    border-radius: 50%;
+    display: block;
+    margin-left: 1%;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    width:200px;
+    height:200px;
+}
