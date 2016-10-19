@@ -1,0 +1,14 @@
+/*
+Theme Name: My Theme 
+Author: Henry
+Description: Wodpress themes and build it from scratch
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+body { 
+     padding-top: 60px; 
+     padding-bottom: 40px; 
+}

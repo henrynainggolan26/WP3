@@ -22,5 +22,4 @@ else{
 		?>
 	</div>
 	<?php get_sidebar('right'); ?>
-	<?php get_footer(); 
-}
+	<?php get_footer(); }?>
